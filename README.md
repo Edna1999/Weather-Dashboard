@@ -6,7 +6,7 @@ Upon hitting the search button the page will display containers with the tempera
 All your searches will display underneath the search bar and if you click on those buttons the page will display the forecast once again.
 Using local storage your last search will be stored on the page as well.
 
-![Screenshot of Weather Dashboard](./assets/image/Screen%20Shot%202022-09-12%20at%2012.16.22%20AM.png);
+![Screenshot of Weather Dashboard](./assets/image/Screen%20Shot%202022-09-12%20at%2012.16.22%20AM.png)
 
-https://edna1999.github.io/weather-dashboard/
+                               https://edna1999.github.io/weather-dashboard/
 
