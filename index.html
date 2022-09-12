@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+ <nav class="navbar col-12" id="nav">
+   
+   <h1>Weather Dashboard</h1> 
+
+ </nav>
+ <!-- container for search bar and displayed searches -->
+ <div class="search">
+    <h2>Search for a city:</h2>
+    <input type="text" placeholder="city" id="inputVal">
+    <button class="searchBtn">Search</button>
+    
+    <div class="pastSearches"></div>
+
+
+ </div>
+
+ <!-- section for the temperatures -->
+<section>
+
+   <!-- container for current temperature -->
+     <div class="todaysTemp">
+
+        <h2 class="city"></h2><span class="todayDate"></span>
+        
+     </div>
+
+     <h2 class="forecast">5-Day Forecast</h2>
+
+     <!-- div for the 5 day forecast -->
+     <div id="futureTemps"> </div>
+
+
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./assets/script.js"></script>
+
+</body>
+</html>
