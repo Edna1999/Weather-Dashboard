@@ -1,0 +1,115 @@
+body {
+display: flex;
+flex-wrap: wrap;
+}
+
+#nav {
+    background-color: rgb(45, 45, 130);
+    color: white;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.searchBtn {
+    background-color: rgb(71, 71, 182);
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(71, 71, 182);
+    
+}
+
+.searchBtn:hover{
+    background-color: white;
+    color:rgb(71, 71, 182);
+
+}
+
+.todaysTemp {
+display: none;
+width: 1000px;
+border: 3px solid rgb(2, 2, 39);
+height: fit-content;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 50px;
+margin-top: 30px;
+margin-left: 70px;
+border-radius: 5px;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 40px;
+    padding-left: 5px;
+}
+
+#futureTemps{
+    
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+.box{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(40, 40, 81);
+    color: white;
+    padding: 20px;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+}
+
+.forecast{
+    margin-left: 70px;
+    display: none;
+}
+
+.date{
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.uv {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.todayDate{
+font-size: 20px;
+font-weight: bold;
+} 
+
+.button{
+    background-color: grey;
+    color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 300px;
+    
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* .searchList{
+    display: flex;
+    flex-direction: column;
+} */
