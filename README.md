@@ -8,7 +8,5 @@ Using local storage your last search will be stored on the page as well.
 
 ![Screenshot of Weather Dashboard](./assets/image/Screen%20Shot%202022-09-12%20at%2012.16.22%20AM.png);
 
-![Page link](https://edna1999.github.io/weather-dashboard/);
-
-
+https://edna1999.github.io/weather-dashboard/
 
